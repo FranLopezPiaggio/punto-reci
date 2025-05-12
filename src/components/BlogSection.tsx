@@ -4,6 +4,7 @@ import Image from 'next/image';
 import stylesModule from '../styles/BlogSection.module.css';
 import { getAssetPath, getStylesPath } from '../utils/path';
 
+// Aplicar la función para procesar los estilos
 const styles = getStylesPath(stylesModule);
 
 // Sample blog posts data
@@ -12,7 +13,7 @@ const blogPosts = [
     id: 1,
     title: 'Cómo separar correctamente tus residuos',
     excerpt: 'Aprende a clasificar tus residuos para un reciclaje más efectivo y contribuir al cuidado del medio ambiente.',
-    image: '/recycling.jpg',
+    image: getAssetPath('/recycling.jpg'),
     date: '10 Mayo, 2025',
     author: 'María González',
     category: 'Consejos',
