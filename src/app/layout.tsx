@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'EcoRecycle - Tu aplicación de reciclaje',
-  description: 'Transforma tu manera de reciclar con EcoRecycle. Contribuye a un mundo más sostenible.',
+  title: 'PuntoReci - Tu aplicación de reciclaje',
+  description: 'Transforma tu manera de reciclar con PuntoReci. Contribuye a un mundo más sostenible.',
 };
 
 export default function RootLayout({

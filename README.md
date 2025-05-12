@@ -1,4 +1,4 @@
-# EcoRecycle - Aplicación de Reciclaje
+# PuntoReci - Aplicación de Reciclaje
 
 Esta es una aplicación SPA tipo landing page para una aplicación de reciclaje, desarrollada con Next.js. La aplicación tiene un diseño moderno con una paleta de colores verdes pálidos y beige.
 

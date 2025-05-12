@@ -12,12 +12,12 @@ const Footer = () => {
           <div>
             <div className={styles.footerLogo}>
               <Image 
-                src="/logo-white.svg" 
-                alt="EcoRecycle Logo" 
-                width={36} 
-                height={36}
+                src="/logo-punto-reci.svg" 
+                alt="PuntoReci Logo" 
+                width={50} 
+                height={50}
               />
-              <h3 className={styles.footerLogoText}>EcoRecycle</h3>
+              <h3 className={styles.footerLogoText}>PuntoReci</h3>
             </div>
             <p className={styles.footerDescription}>
               Transformando la manera en que reciclamos, cuidamos del planeta y construimos 
@@ -121,7 +121,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className={styles.footerBottom}>
           <p className={styles.footerCopyright}>
-            © {new Date().getFullYear()} EcoRecycle. Todos los derechos reservados.
+            © {new Date().getFullYear()} PuntoReci. Todos los derechos reservados.
           </p>
           <div className={styles.footerPolicies}>
             <Link href="/privacy" className={styles.footerPolicyLink}>

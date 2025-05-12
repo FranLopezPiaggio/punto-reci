@@ -10,12 +10,12 @@ const Header = () => {
         {/* Logo */}
         <div className={styles.logo}>
           <Image 
-            src="/logo.svg" 
+            src="/logo-punto-reci.svg" 
             alt="Recycling App Logo" 
-            width={40} 
-            height={40}
+            width={100} 
+            height={100}
           />
-          <h1 className={styles.logoText}>EcoRecycle</h1>
+          <h1 className={styles.logoText}>PuntoReci</h1>
         </div>
         
         {/* Navigation */}

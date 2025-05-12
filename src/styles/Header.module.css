@@ -10,17 +10,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.75rem 1rem;
+    padding: 0.25rem 1rem;
   }
   
   .logo {
     display: flex;
     align-items: center;
+    position: relative;
   }
   
   .logoText {
     margin-left: 0.5rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--pale-green-400);
   }
