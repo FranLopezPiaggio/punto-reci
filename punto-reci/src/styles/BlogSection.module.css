@@ -1,0 +1,147 @@
+.blogSection {
+    padding: 4rem 0;
+    background-color: var(--pale-green-100);
+  }
+  
+  .sectionHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--pale-green-400);
+    margin-bottom: 0.5rem;
+  }
+  
+  .sectionDescription {
+    color: var(--gray-600);
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .blogGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .blogCard {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .blogCard:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blogImageContainer {
+    position: relative;
+    height: 12rem;
+    width: 100%;
+  }
+  
+  .blogContent {
+    padding: 1.5rem;
+  }
+  
+  .blogMeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blogCategory {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--beige-200);
+    color: var(--pale-green-400);
+    border-radius: 9999px;
+  }
+  
+  .blogDate {
+    font-size: 0.75rem;
+    color: var(--gray-500);
+  }
+  
+  .blogTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .blogTitleLink {
+    color: var(--gray-800);
+    transition: color 0.2s ease;
+  }
+  
+  .blogTitleLink:hover {
+    color: var(--pale-green-400);
+  }
+  
+  .blogExcerpt {
+    color: var(--gray-600);
+    margin-bottom: 1rem;
+  }
+  
+  .blogFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .blogAuthor {
+    font-size: 0.875rem;
+    color: var(--gray-500);
+  }
+  
+  .blogReadMore {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--pale-green-400);
+    transition: color 0.2s ease;
+  }
+  
+  .blogReadMore:hover {
+    color: var(--pale-green-300);
+  }
+  
+  .viewAllContainer {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .viewAllButton {
+    display: inline-block;
+    background-color: var(--beige-300);
+    color: var(--pale-green-400);
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .viewAllButton:hover {
+    background-color: var(--beige-400);
+  }
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    .blogGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .blogGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
