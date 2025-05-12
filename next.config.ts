@@ -1,13 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
-  trailingSlash: process.env.NODE_ENV === 'production',
-  basePath: process.env.NODE_ENV === 'production' ? '/punto-reci' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/punto-reci/' : '',
-  images: {
-    unoptimized: true,
-  },
+  // Vercel maneja automáticamente la optimización de imágenes
+  // No necesitas configuraciones especiales para rutas base o prefijos de activos
 };
 
 export default nextConfig;
