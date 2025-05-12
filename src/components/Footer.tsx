@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Footer.module.css';
+import basePath from '../../next.config';
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
           <div>
             <div className={styles.footerLogo}>
               <Image 
-                src="/logo-punto-reci.svg" 
+                src={`${basePath}/logo-punto-reci.svg`}
                 alt="PuntoReci Logo" 
                 width={50} 
                 height={50}

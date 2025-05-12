@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/BlogSection.module.css';
+import basePath from '../../next.config';
 
 // Sample blog posts data
 const blogPosts = [
@@ -9,7 +10,7 @@ const blogPosts = [
     id: 1,
     title: 'Cómo separar correctamente tus residuos',
     excerpt: 'Aprende a clasificar tus residuos para un reciclaje más efectivo y contribuir al cuidado del medio ambiente.',
-    image: '/recycling.jpg',
+    image: `${basePath}/recycling.jpg`,
     date: '10 Mayo, 2025',
     author: 'María González',
     category: 'Consejos',
@@ -18,7 +19,7 @@ const blogPosts = [
     id: 2,
     title: 'Beneficios del compostaje doméstico',
     excerpt: 'Descubre cómo el compostaje puede reducir tu huella de carbono y mejorar la salud de tu jardín.',
-    image: '/recycling.jpg',
+    image: `${basePath}/recycling.jpg`,
     date: '5 Mayo, 2025',
     author: 'Carlos Rodríguez',
     category: 'Compostaje',
@@ -27,7 +28,7 @@ const blogPosts = [
     id: 3,
     title: 'Iniciativas de reciclaje que están cambiando ciudades',
     excerpt: 'Conoce las iniciativas innovadoras que están transformando la gestión de residuos en diversas ciudades del mundo.',
-    image: '/recycling.jpg',
+    image: `${basePath}/recycling.jpg`,
     date: '28 Abril, 2025',
     author: 'Laura Martínez',
     category: 'Noticias',

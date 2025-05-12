@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from '../styles/HeroSection.module.css';
+import basePath from '../../next.config';
 
 const HeroSection = () => {
   return (
     <section 
       className={styles.heroSection}
       style={{
-        backgroundImage: 'url("/grass.jpg")',
+        backgroundImage: `url(${basePath}/logo-punto-reci.svg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Header.module.css';
+import basePath from '../../next.config';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         {/* Logo */}
         <div className={styles.logo}>
           <Image 
-            src="/logo-punto-reci.svg" 
+            src={`${basePath}/logo-punto-reci.svg`}
             alt="Recycling App Logo" 
             width={100} 
             height={100}
