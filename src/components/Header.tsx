@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '../styles/Header.module.css';
-import { getAssetPath } from '../utils/path';
+import { getAssetPath, getStylesPath } from '../utils/path';
+import stylesModule from '../styles/Header.module.css';
+
+// Aplicar la función para procesar los estilos
+const styles = getStylesPath(stylesModule);
 
 const Header = () => {
   return (

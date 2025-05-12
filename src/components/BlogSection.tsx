@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '../styles/BlogSection.module.css';
-import { getAssetPath } from '../utils/path';
+import stylesModule from '../styles/BlogSection.module.css';
+import { getAssetPath, getStylesPath } from '../utils/path';
+
+// Aplicar la función para procesar los estilos
+const styles = getStylesPath(stylesModule);
 
 // Sample blog posts data
 const blogPosts = [

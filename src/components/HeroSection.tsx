@@ -1,6 +1,9 @@
 import React from 'react';
-import styles from '../styles/HeroSection.module.css';
-import { getAssetPath } from '../utils/path';
+import { getAssetPath, getStylesPath } from '../utils/path';
+import stylesModule from '../styles/HeroSection.module.css';
+
+// Aplicar la función para procesar los estilos
+const styles = getStylesPath(stylesModule);
 
 const HeroSection = () => {
   return (
